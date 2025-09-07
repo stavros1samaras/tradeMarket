@@ -75,6 +75,9 @@ const MainTemp = () => {
                     <Tooltip />
                 </AreaChart>
             </ResponsiveContainer>
+            <h1>
+                BRAVOO
+            </h1>
         </main>
     );
 };
