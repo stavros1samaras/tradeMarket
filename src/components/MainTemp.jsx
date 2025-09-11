@@ -1,5 +1,7 @@
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Legend, Tooltip, ResponsiveContainer , AreaChart} from 'recharts';
 
+import BitPrice from '../smallComponents/BitPrice.jsx';
+
 
 const MainTemp = () => {
 
@@ -75,9 +77,8 @@ const MainTemp = () => {
                     <Tooltip />
                 </AreaChart>
             </ResponsiveContainer>
-            <h1>
-                BRAVOO
-            </h1>
+            
+            <BitPrice />
         </main>
     );
 };
