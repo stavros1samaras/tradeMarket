@@ -60,7 +60,7 @@ const MainTemp = () => {
 
     return (
         <main>
-            <div className="w-full h-96 bg-blue-300"></div>
+            {/* <div className="w-full h-96 bg-blue-300"></div>
 
             <ResponsiveContainer width="100%" height={300}>
                 <AreaChart data={data} margin={{
@@ -76,7 +76,7 @@ const MainTemp = () => {
                     <Legend align="right" />
                     <Tooltip />
                 </AreaChart>
-            </ResponsiveContainer>
+            </ResponsiveContainer> */}
             
             <BitPrice />
         </main>
