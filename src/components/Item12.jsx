@@ -1,6 +1,10 @@
+import BitSignals from '../smallComponents/BitSignals.jsx';
+
+
 const Item12 = () => {
   return (
-    <div>Item12</div>
+    <BitSignals />
+
   )
 }
 

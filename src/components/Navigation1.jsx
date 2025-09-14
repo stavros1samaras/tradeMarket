@@ -1,3 +1,4 @@
+import CryptoPricesLive from "../smallComponents/CryptoPricesLive.jsx";
 
 const Navigation1 = () => {
     return (
@@ -5,7 +6,7 @@ const Navigation1 = () => {
             <div className="flex flex-row justify-start">
                 <img src="" alt="this is the logo" />
                 <ul className="flex flex-row justify-between">
-                    <li>item1</li>
+                    <li>Techical analysis</li>
                     <li>item1</li>
                     <li>item1</li>
                     <li>item1</li>
@@ -14,10 +15,7 @@ const Navigation1 = () => {
                     <li className="hidden">item1</li>
                 </ul>
             </div>
-
-            <div className="hidden md:inline">
-                some fancy shit
-            </div>
+            <CryptoPricesLive />
         </nav>
     );
 }
